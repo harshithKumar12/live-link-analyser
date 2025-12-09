@@ -4,7 +4,7 @@
 ---
 
 ## 📁 Project Structure
-
+``` text
 live-link-analyzer/
 ├── src/
 │ ├── components/
@@ -22,6 +22,7 @@ live-link-analyzer/
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 ---
 
 ## 🎯 Purpose & Overview
