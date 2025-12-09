@@ -4,6 +4,7 @@ import { AnalysisResult, LoadingStep } from './types';
 import { RadialProgress } from './components/RadialProgress';
 import { StatusBadge } from './components/StatusBadge';
 import { MetricCard } from './components/MetricCard';
+import { DocumentationModal } from './components/DocumentationModal';
 import { 
   Activity, 
   Shield, 
@@ -32,6 +33,7 @@ function App() {
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loadingStep, setLoadingStep] = useState(0);
+  const [isDocOpen, setIsDocOpen] = useState(false);
 
   const handleAnalyze = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -77,6 +79,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 pb-12">
+      {/* Documentation Modal */}
+      <DocumentationModal isOpen={isDocOpen} onClose={() => setIsDocOpen(false)} />
+
       {/* Header */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -88,9 +93,12 @@ function App() {
               Live Link Analyzer
             </h1>
           </div>
-          <a href="#" className="text-sm font-medium text-slate-500 hover:text-blue-600 transition-colors">
+          <button 
+            onClick={() => setIsDocOpen(true)}
+            className="text-sm font-medium text-slate-500 hover:text-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-md px-2 py-1"
+          >
             Documentation
-          </a>
+          </button>
         </div>
       </header>
 
