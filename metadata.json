@@ -1,0 +1,5 @@
+{
+  "name": "Live Link Analyzer",
+  "description": "An instant, comprehensive health scan for any URL covering SEO, Performance, Security, and Tech Stack analysis using Gemini 2.5.",
+  "requestFramePermissions": []
+}
