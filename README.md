@@ -7,14 +7,14 @@
 
 live-link-analyzer/
 ├── src/
-│   ├── components/
-│   │   ├── MetricCard.tsx
-│   │   ├── RadialProgress.tsx
-│   │   └── StatusBadge.tsx
-│   ├── services/
-│   │   └── geminiService.ts
-│   ├── App.tsx
-│   └── index.tsx
+│ ├── components/
+│ │ ├── MetricCard.tsx
+│ │ ├── RadialProgress.tsx
+│ │ └── StatusBadge.tsx
+│ ├── services/
+│ │ └── geminiService.ts
+│ ├── App.tsx
+│ └── index.tsx
 ├── .gitignore
 ├── index.html
 ├── README.md
