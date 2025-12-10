@@ -1,9 +1,9 @@
-# 📡 Live Link Analyzer  
+# Live Link Analyzer  
 *A fast, lightweight, AI-assisted website diagnostic tool built with Vite + TypeScript.*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ``` text
 live-link-analyzer/
@@ -26,7 +26,7 @@ live-link-analyzer/
 ```
 ---
 
-## 🎯 Purpose & Overview
+## Purpose & Overview
 
 **Live Link Analyzer** is a web-based utility that performs a comprehensive, instant health scan of any URL — covering SEO, performance, security, tracking scripts, and tech-stack detection.  
 It uses a headless browser and parsing logic on the backend (or utility layer) and presents user-friendly metrics and AI-generated summaries on the frontend.
@@ -35,7 +35,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## ✅ Core Features & Analysis Points
+## Core Features & Analysis Points
 
 - **SEO Health Check**  
   - Title / meta description detection (flags missing or non-optimal)  
@@ -70,7 +70,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 🧩 How It Works — High Level Flow
+## How It Works — High Level Flow
 
 1. Frontend (React + Vite) sends a URL to an analysis function.  
 2. Backend / Utility fetches the page HTML and HTTP response headers (via headless browser or fetch).  
@@ -85,7 +85,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 🚀 Why This Project Is Valuable
+## Why This Project Is Valuable
 
 - **Instant & All-In-One** — Combines SEO, performance, security, tracking and tech-stack checks in one tool.  
 - **No Database or Sign-up Required** — Simple URL input → instant result — ideal for quick audits.  
@@ -96,7 +96,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 💡 Potential Use Cases
+## Potential Use Cases
 
 - Quick audits of your own website before deployment  
 - SEO / marketing checks for clients or competitors  
@@ -106,7 +106,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 🛠 Tech Stack & Tools
+## Tech Stack & Tools
 
 - **Frontend:** Vite + TypeScript + React  
 - **UI Components:** MetricCard.tsx, RadialProgress.tsx, StatusBadge.tsx  
@@ -116,7 +116,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 📄 How to Use / Run Locally
+## How to Use / Run Locally
 
 1. Clone the repo  
 2. Run `npm install` (or `yarn`)  
@@ -125,7 +125,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 🧭 How to Extend / Customize
+## How to Extend / Customize
 
 - Add more metrics (e.g. Lighthouse-style audits, accessibility checks)  
 - Expand tech stack detection logic  
@@ -135,7 +135,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 
 ---
 
-## 📝 Remark on Data Handling & Storage
+## Remark on Data Handling & Storage
 
 This tool is **stateless** — there is **no database or persistent storage**.  
 Each URL scan is processed on demand, and results are only kept in-memory (frontend state).  
@@ -143,7 +143,7 @@ This keeps the tool lightweight and privacy-friendly.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **Live Link Analyzer** provides a clean, efficient, and powerful way to audit any website in seconds.  
 It merges technical depth with user-friendly reporting — making it useful for developers, marketers, freelancers, agencies, or anyone interested in web health.
