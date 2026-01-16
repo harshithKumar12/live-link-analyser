@@ -122,7 +122,7 @@ You provide a URL, and get a full report in seconds — no database needed, no s
 2. Run `npm install` (or `yarn`)  
 3. Run `npm run dev` (or `yarn dev`)  
 4. Open the UI in browser → paste in a URL → view report  
-
+5. can use it here - https://ai.studio/apps/drive/1KGo6iaL-iC9Ri5k-mt-fl9F43d-QdGLu
 ---
 
 ## How to Extend / Customize
